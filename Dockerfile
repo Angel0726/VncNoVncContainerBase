@@ -1,7 +1,7 @@
 FROM debian:bullseye
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV TZ=America/New_York
+ENV TZ=Asia/Shanghai
 
 # Username and password for the non-root user in the container.
 # If these are changed then it is also necessary to change directory
